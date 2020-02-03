@@ -1,0 +1,141 @@
+body{
+  margin : 0;
+  text-align: center;
+  /* width 가 없는 모든것을 center 한다 */
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1{
+  /* auto to keep it centered! */
+  margin: 50px auto 0 auto;
+  /* width: 10%;  center 가 깨져버림*/
+  /* margin-left: 0 auto 0 auto; */
+  /* top right bottom left */
+  font-size: 5.625em;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Patua One', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Patua One', cursive;
+  color: #11999E;
+}
+
+a{
+  text-decoration: none;
+  color: #11999E;
+}
+
+hr{
+  border-width: 8px;
+  width: 72px;
+  border-style: dotted none none;
+  color : #EAF6F6;
+}
+
+.subtitle{
+  line-height: 2;
+  font-weight: normal;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+/* Containers */
+
+.top-container{
+  padding: 100px 0 0 0;
+  background-color: #c8e6f5;
+}
+
+.middle-container{
+  padding: 100px 0 30px 0;
+}
+
+.bottom-container{
+  padding: 30px 0 30px 0;
+  background-color: #EAF6F6;
+}
+
+/* Elements  */
+
+.profile-img{
+  width: 15em;
+  border-radius: 50%;
+}
+
+.android-logo{
+  width: 23%;
+  float: left;
+  margin-right: 30px;
+}
+
+.language-logo{
+  width: 23%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 500px;
+}
+
+.top-cloud{
+  /* absolute -> taken out of the flow ! */
+  position: absolute;
+  padding-top: 50px;
+   /*  padding pushed everything down a little bit. */
+  right: 300px;
+  top: 50px;
+}
+
+/* middle container elements */
+.profile{
+  margin: 100px auto 100px auto;
+  padding-bottom: 30px;
+}
+
+.skill-row{
+  text-align: left;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  padding-bottom: 30px;
+  width: 50%;
+}
+
+.contact{
+  margin: 100px auto 100px auto;
+  padding-bottom: 30px;
+}
+
+.myButton {
+  margin : 30px;
+	box-shadow:inset 0 1px 0 0 #ffffff;
+	background-color:transparent;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #ffffff;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
